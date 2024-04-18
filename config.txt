@@ -1,0 +1,6 @@
+[hotkey]
+hotkey = p
+
+[loadouts]
+
+

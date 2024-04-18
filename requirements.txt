@@ -1,0 +1,4 @@
+keyboard
+mouse
+screeninfo
+configparser
