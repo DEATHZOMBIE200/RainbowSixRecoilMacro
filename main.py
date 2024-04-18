@@ -179,9 +179,11 @@ def toggleMacro():
     if enabled:
         enabled = False
         print('Macro Disabled!')
+        ctypes.windll.user32.MessageBeep(0x00000010) 
     else:
         enabled = True
         print('Macro Enabled!')
+        ctypes.windll.user32.MessageBeep(0xFFFFFFFF) 
 
 keyboard.add_hotkey(hotkey, toggleMacro)
 
